@@ -6,6 +6,24 @@ import numpy as np
 ########## initialization of flask
 app = Flask(__name__)
 
+
+from flask import Flask,render_template,jsonify,request
+import config
+from Medical_Insurance.utils import MedicalInsurance
+import numpy as np
+
+########## initialization of flask
+app = Flask(__name__)
+
+
+from flask import Flask,render_template,jsonify,request
+import config
+from Medical_Insurance.utils import MedicalInsurance
+import numpy as np
+
+########## initialization of flask
+app = Flask(__name__)
+
 ######## home api ################
 @app.route("/")
 def get_homeapi():
